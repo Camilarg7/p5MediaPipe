@@ -24,7 +24,7 @@ function draw() {
         for (let landmark of landmarks) {
           noStroke();
           fill(250, 50, 10);
-          circle(landmark.x * width, landmark.y * height, 40);
+          rect(landmark.x * width, landmark.y * height, 40);
         }
       }
     }
